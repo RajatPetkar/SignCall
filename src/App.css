@@ -1,0 +1,22 @@
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #00c8ffaa);
+}
+.slider-container {
+  border-radius: 10px; /* Adjust the value as per your preference */
+  overflow: hidden;
+}
+.margin{
+  margin-top: 5.5rem;
+}
+
+.small {
+  font-size: 0.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.special{
+  color: rgb(47, 82, 255);
+}
